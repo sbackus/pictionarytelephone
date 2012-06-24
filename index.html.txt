@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Welcome to PictionaryTelephone.com</h1>
+
+<p>Please come back later.  I'm not ready yet.</p>
+
+</body>
+</html>
