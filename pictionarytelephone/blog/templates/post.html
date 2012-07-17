@@ -2,8 +2,6 @@
 
 {% block content %}
 
-{% for post in object_list %} 
-
 <h2> <a href="/blog/{{post.id}}"> {{ post.title }} </a> </h2>
 
 <div class="post_meta">
@@ -20,7 +18,5 @@
   {% if not forloop.last %}, {% endif %}
   {% endfor %}
 </div>
-
-{% endfor %}
 
 {% endblock %}
