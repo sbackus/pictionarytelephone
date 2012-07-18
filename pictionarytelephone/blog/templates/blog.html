@@ -10,6 +10,12 @@
   on {{post.created}}
 </div>
 
+<div class="post_image">
+  {{ MEDIA_URL }}  {{post.image}} <br/>
+  {{post.image.url}} <br/>
+  <img src="{{post.image.url}}" /> 
+</div>
+
 <div class="post_caption">
   {{post.caption|safe|linebreaks}}
 </div>
